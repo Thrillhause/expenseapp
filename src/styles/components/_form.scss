@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  > * {
+    margin-bottom: $m-size;
+  }
+}
+.form__error {
+  background: lighten($color: lightcoral, $amount: 5);
+  border: 1.5px solid lightcoral;
+  border-radius: 5px;
+  margin: 0 0 $m-size 0;
+  font-style: italic;
+  padding: 5px $m-size;
+}
